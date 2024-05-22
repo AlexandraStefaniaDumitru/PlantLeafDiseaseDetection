@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #A1DD70;
+  color: #EE4E4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+label{
+  margin-right: 20px;
+}
+
+.upload-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.upload-container input[type="file"] {
+  display: none;
+}
+
+.upload-container label {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-container label:hover {
+  background-color: #0056b3;
+}
+
+.upload-container button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-container button:hover {
+  background-color: #218838;
+}
+
+.upload-container p {
+  margin-top: 10px;
+  color: #333;
+}
+
+.uploaded-image {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message{
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
